@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.wrapper {
+    height: 800px;
+    width: 1089px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 20%;
+}
+
+footer {
+    height: 10%;
+    background-color: blue;
+}
+
+main {
+    background-color: #f1f1f1;
+    height: 70%;
+width: 100%;
+}
+
+nav {
+    height: 10%;
+    background-color: gray;
+    width: 100%;
+}
+
+ul.menu {
+    text-decoration: none;
+    width: 100%;
+    padding-right: 300px;
+}
+
+.menu li {
+
+    text-decoration: none;
+    float: left;
+    list-style-type: none;
+    width: 15%;
+    height: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+   border: 1px solid ;
+}
+.menu li a {
+   
+    text-decoration: none;
+    top: 180px;
+    color: black;
+}
+ul.drop{
+position: absolute;
+display: block;
+top: 214px;
+width: 0px;
+opacity: 0;
+visibility: hidden;
+}
+ul.drop li{
+    height: 40px;
+width: 150px;
+}
+.menu li:hover {
+    background-color: aqua;
+}
+.menu li:hover ul.drop { 
+    opacity: 1;
+visibility: visible;
+}
+ul.sub{
+   
+    position: absolute;
+    display: block;
+    top: 80px;
+    left: 149px;
+    width: 0px;
+    opacity: 0; 
+     visibility: hidden;
+}
+ul.drop li:hover ul.sub { 
+    opacity: 1;
+visibility: visible;
+}
+ul.sub2{
+
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 149px;
+    width: 0px;
+    opacity: 0; 
+     visibility: hidden;
+}
+ul.sub li:hover ul.sub2 { 
+    opacity: 1;
+visibility: visible;
+}
+ul.sub3{
+
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 149px;
+    width: 0px;
+    opacity: 0; 
+     visibility: hidden;
+}
+ul.sub2 li:hover ul.sub3 { 
+    opacity: 1;
+visibility: visible;
+}
