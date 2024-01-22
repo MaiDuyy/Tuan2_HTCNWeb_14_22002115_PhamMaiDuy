@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.wrapper{
+    border: 1px solid black;
+    width: 800px;
+    height: 600px;
+}
+header{
+    height: 20%;
+  display: flex;
+  align-items: center;
+border-bottom: 1px solid black;
+}
+header h1 {
+    color: red;
+    text-shadow: 5px 10px 10px ;
+    text-transform: uppercase;
+    
+}
+nav{
+    height: 5%;
+    border-bottom: 1px solid black;
+}
+ul.menu {
+ 
+  list-style-type: none;
+}
+ul.menu li {
+    float: left;
+  margin: 5px;
+}
+ul.menu li a{
+    text-decoration: none;
+
+}
+main{
+    height: 75%;
+}
+.title{
+   color: red;
+   background-color: antiquewhite;
+}
+u{
+    color: red;
+}
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(196, 141, 60);
+}
+main a{
+    color: red;
+    font-weight: bold;
+}
